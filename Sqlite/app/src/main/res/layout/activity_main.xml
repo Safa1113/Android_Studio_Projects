@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/platinum"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:hint="Title"
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/auther"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:hint="Author"
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/page_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:hint="Number of Pages"
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="fill_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text = "previous"
+                android:onClick="prev"
+                android:background="@color/mid_night"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/blue_grey"
+
+
+                />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text = "next"
+                android:onClick="next"
+                android:background="@color/mid_night"
+                android:layout_margin="5dp"
+
+                android:textColor="@color/blue_grey"
+
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text = "update this book"
+        android:onClick="update"
+        android:background="@color/mid_night"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue_grey"
+
+        />
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text = "delete  this book"
+        android:onClick="delete"
+        android:background="@color/mid_night"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue_grey"
+
+        />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text = "add new book"
+        android:onClick="insert"
+        android:background="@color/mid_night"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue_grey"
+
+        />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.safofoh.tawahodproject.Main3Activity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:background="@drawable/roundedbutton"
+        android:text="التحليل"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+ />
+
+    <Button
+        android:id="@+id/yawmi"
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:background="#5F8CFF"
+        android:text="التحليل اليومي"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+ />
+
+
+
+    <Button
+        android:id="@+id/esboi"
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:background="#5F8CFF"
+        android:text="التحليل الاسبوعي"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+ />
+
+    <Button
+        android:id="@+id/shahri"
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:background="#5F8CFF"
+        android:text="التحليل الشهري"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+ />
+
+
+
+
+
+
+
+</LinearLayout>
+

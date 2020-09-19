@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        tools:context="com.example.gx620.sqlite.Main2Activity"
+    android:background="@color/platinum"
+        android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/titleEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        android:hint="Title"
+       />
+
+    <EditText
+        android:id="@+id/autherEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        android:hint="Author"
+         />
+
+    <EditText
+        android:id="@+id/page_numbersEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text=""
+        android:background="@color/blue_grey"
+        android:layout_margin="10dp"
+        android:hint="Number of Pages"
+         />
+
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text = "update this book"
+        android:onClick="save"
+        android:background="@color/mid_night"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue_grey"
+ />
+
+
+    <Button
+        android:id="@+id/returnE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text = "return to main page"
+        android:onClick="returnE"
+        android:background="@color/mid_night"
+        android:layout_margin="10dp"
+        android:textColor="@color/blue_grey"
+
+ />
+
+</LinearLayout>

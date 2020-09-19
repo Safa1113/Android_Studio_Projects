@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:gravity="center">
+    <Button
+        android:id="@+id/writer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="Writer"
+        android:onClick="Nwriter"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/mentioneduser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="Mentioned"
+        android:onClick="Nmentioned"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+    </TableRow>
+
+
+    <TableRow
+        android:gravity="center">
+    <Button
+        android:id="@+id/txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="Txt"
+        android:onClick="Ntxt"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+
+    </TableRow>
+    <TableRow
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/likes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="Likes"
+        android:onClick="Nlike"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+
+
+
+    <Button
+        android:id="@+id/time_signal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="Time"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+
+
+
+
+    </TableRow>
+    <TableRow
+        android:gravity="center">
+
+
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="Previous"
+            android:onClick="prev"
+            android:textAllCaps="false"
+            android:textColor="@color/platinum"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/reply"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="Reply"
+            android:onClick="Nreply"
+            android:textAllCaps="false"
+            android:textColor="@color/platinum"
+            android:textSize="15dp" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="next"
+        android:onClick="next"
+        android:textAllCaps="false"
+        android:textColor="@color/platinum"
+        android:textSize="15dp" />
+
+
+    </TableRow>
+
+
+
+
+
+
+
+</TableLayout>

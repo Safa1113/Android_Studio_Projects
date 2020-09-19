@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.safofoh.myapplicationalarm.Main2Activity">
+
+<TimePicker
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/alarmTimePicker"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_marginTop="5dp"
+        android:onClick="save"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/b1"
+        android:layout_marginRight="10dp"
+        android:onClick="show"
+        android:text="Show" />
+
+    <EditText
+        android:id="@+id/dbid"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/alarmTimePicker"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b1"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="update"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/b1"
+        android:layout_toLeftOf="@+id/b3"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="delete"
+        android:text="Delete" />
+</RelativeLayout>

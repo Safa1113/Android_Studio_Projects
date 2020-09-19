@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtvPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter your username"/>
+
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+    android:id="@+id/usrInp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="name"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter your password"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/pwdInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+    android:id="@+id/btnSignUp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="register"
+    android:onClick="signUp"/>
+
+</LinearLayout>

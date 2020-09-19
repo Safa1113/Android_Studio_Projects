@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mid_night"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="Enter your Username"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+        <EditText
+            android:id="@+id/realname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="Enter your Real Name"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+
+        <EditText
+            android:id="@+id/sq"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="Question to constraint who can view your profile"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+        <EditText
+            android:id="@+id/sa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="Enter the answer to your question"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+        <EditText
+            android:id="@+id/about"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/pearl"
+            android:hint="Say something about yourself"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blue_grey"
+            android:textColorHint="@color/blue_grey" />
+
+
+
+
+
+    <!-- Login Button -->
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@color/khaki_rose"
+        android:text="@string/btn_register"
+        android:textColor="@color/fire_brick" />
+
+    <!-- Link to Login Screen -->
+
+    <Button
+        android:id="@+id/btnLinkToLoginScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@null"
+        android:text="@string/btn_link_to_login"
+        android:textAllCaps="false"
+        android:textColor="@color/khaki_rose"
+        android:textSize="15dp" />
+</LinearLayout>

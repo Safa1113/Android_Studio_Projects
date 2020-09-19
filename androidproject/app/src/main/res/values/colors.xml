@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorAccent">@android:color/white</color>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">@android:color/white</color>
+
+    <color name="black">#000000 </color>
+    <color name="mid_night">#2B1B17 </color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="blue_grey">#98AFC7</color>
+    <color name="blue_whale">#342D7E</color>
+    <color name="blue_earth">#0000A0</color>
+    <color name="light_slate_blue">#736AFF</color>
+    <color name="butterfly_blue">#38ACEC</color>
+    <color name="deep_sky_blue">#3BB9FF</color>
+    <color name="light_jade">#C3FDB8</color>
+    <color name="bronze">#CD7F32</color>
+    <color name="mocha">#493D26</color>
+    <color name="bean_red">#F75D59</color>
+    <color name="love_red">#E41B17</color>
+    <color name="fire_brick">#800517</color>
+    <color name="khaki_rose">#C5908E</color>
+    <color name="violet_red">#F6358A</color>
+    <color name="indigo">#4B0082</color>
+    <color name="medium_orchid">#B048B5</color>
+    <color name="purble">#6C2DC7</color>
+    <color name="pearl">#FDEEF4</color>
+    <color name="tyrian_purble">#C45AEC</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+</resources>
+

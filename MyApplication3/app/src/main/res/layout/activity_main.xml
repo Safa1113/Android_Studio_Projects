@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gx620.myapplication3.MainActivity">
+
+   <Button
+       android:text="show a Toast msg using event handling"
+       android:id="@+id/btn1Show"
+       android:onClick="showToast"
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       tools:layout_constraintBottom_creator="1"
+       android:layout_marginStart="29dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       tools:layout_constraintLeft_creator="1"
+       android:layout_marginBottom="76dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       android:layout_marginLeft="29dp" />
+
+
+
+    <Button
+        android:text="show a Toast msg using listener"
+        android:id="@+id/btn2Show"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/btn1Show"
+        android:layout_marginStart="27dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintLeft_toLeftOf="@+id/btn1Show"
+        android:layout_marginLeft="27dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+

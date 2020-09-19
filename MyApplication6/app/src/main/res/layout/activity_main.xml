@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <EditText
+      android:id="@+id/httpLink"
+      android:layout_width="fill_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:hint="http link"/>
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="fill_parent"
+
+        android:layout_height="50dp"
+
+        android:hint="phone num"/>
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text ="Send SMS"
+        android:onClick="sendSMS"/>
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text ="Search Text"
+        android:onClick="searchTxt"
+       />
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text ="Show Contact"
+        android:onClick="showContact"/>
+    <Button
+        android:id="@+id/locBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text ="Show Location"
+        android:onClick="showLoc"/>
+
+    <Button
+        android:id="@+id/dialBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text ="Dial"
+        android:onClick="dial"/>
+
+    <Button
+        android:id="@+id/openBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text ="Open Website"
+        android:onClick="openSite"/>
+
+</LinearLayout>
+

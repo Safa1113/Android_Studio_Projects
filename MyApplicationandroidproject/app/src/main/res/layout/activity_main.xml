@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/myLayout"
+android:stretchColumns="0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+    android:background="@color/black">
+
+    <TextView android:text="Book Details"
+    android:layout_x="110dp"
+    android:layout_y="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView android:text="Enter ID"
+    android:layout_x="30dp"
+    android:layout_y="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText android:id="@+id/editID"
+    android:inputType="number"
+    android:layout_x="150dp"
+    android:layout_y="50dp"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <TextView android:text="Enter Title"
+    android:layout_x="30dp"
+    android:layout_y="100dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText android:id="@+id/editTitle"
+    android:inputType="text"
+    android:layout_x="150dp"
+    android:layout_y="100dp"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView android:text="Enter Pages No."
+    android:layout_x="30dp"
+    android:layout_y="150dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText android:id="@+id/editPages"
+    android:inputType="number"
+    android:layout_x="150dp"
+    android:layout_y="150dp"
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <TextView android:text="Enter Author"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"/>
+    <EditText android:id="@+id/editAuthor"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="200dp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+
+
+    <Button	  android:id="@+id/btnAdd"
+    android:text="@string/add"
+    android:layout_x="30dp"
+    android:layout_y="250dp"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <Button	  android:id="@+id/btnDelete"
+    android:text="@string/delete"
+    android:layout_x="150dp"
+    android:layout_y="250dp"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <Button   android:id="@+id/btnUpdate"
+    android:text="Update"
+    android:layout_x="30dp"
+    android:layout_y="300dp"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button   android:id="@+id/btnView"
+    android:text="@string/view"
+    android:layout_x="150dp"
+    android:layout_y="300dp"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <Button   android:id="@+id/btnViewAll"
+    android:text="@string/view_all"
+    android:layout_x="30dp"
+    android:layout_y="350dp"
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+        android:textColor="@color/colorPrimary"/>
+
+</AbsoluteLayout>

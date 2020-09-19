@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+
+<TextView
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="enter your username to change password"/>
+
+
+<EditText
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="name"/>
+
+<TextView
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/txtvUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="enter your new password"/>
+
+<EditText
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="password"/>
+
+<Button
+    android:layout_marginTop="10dp"
+    android:id="@+id/btnChange"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Change password"
+    android:onClick="change"/>
+
+<Button
+    android:layout_marginTop="10dp"
+    android:id="@+id/returnToLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="return to login screen"
+    android:onClick="returnLogin"/>
+
+
+</LinearLayout>

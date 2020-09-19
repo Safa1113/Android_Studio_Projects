@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mid_night">
+
+
+
+
+    <include layout="@layout/top_layout" />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_weight="0.63">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+
+
+        <Button
+            android:id="@+id/prousername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="username"
+            android:textAllCaps="false"
+            android:textColor="@color/pearl"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/prorealname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="realname"
+            android:textAllCaps="false"
+            android:textColor="@color/pearl"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/profollowers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="followers"
+            android:textAllCaps="false"
+            android:textColor="@color/pearl"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/proabout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="about"
+            android:textAllCaps="false"
+            android:textColor="@color/pearl"
+            android:textSize="15dp" />
+        <Button
+            android:id="@+id/protime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:background="@null"
+            android:text="last updated at"
+            android:textAllCaps="false"
+            android:textColor="@color/pearl"
+            android:textSize="15dp" />
+
+
+            <Button
+                android:id="@+id/profollow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@null"
+                android:text="Follow this User"
+                android:onClick="follow_btn"
+                android:textAllCaps="false"
+                android:textColor="@color/pearl"
+                android:textSize="15dp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                >
+
+
+
+
+                <Button
+                    android:id="@+id/proreplies"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/khaki_rose"
+                    android:text="Show Replies"
+                    android:onClick="show_replies"
+                    android:textAllCaps="false"
+                    android:textColor="@color/fire_brick"
+                    android:textSize="15dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </ScrollView>
+
+        <include layout="@layout/bottom_layout" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.safofoh.tawahodproject.Main7Activity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:src="@drawable/ramz"
+        android:layout_margin="10dp" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="149dp"
+        android:layout_height="35dp"
+        android:text="اعداد حساب طفلك"
+
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+         />
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:background="#EFF69C"
+        android:text="للتعرف على وجه طفلك"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/taarof"
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        android:background="#6638e2"
+        android:text="اضغط هنا"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp" />
+
+
+
+
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="39dp"
+        android:background="#EFF69C"
+        android:text="ارفاق صورة للعبة طفلك المفضلة"
+        android:layout_margin="10dp" />
+    <Button
+        android:layout_width="127dp"
+        android:layout_height="55dp"
+        android:background="#6638e2"
+        android:text="اضغط هنا"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+
+</LinearLayout>
